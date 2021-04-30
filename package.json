@@ -1,15 +1,30 @@
 {
-  "name": "fco-llanquipichun-site",
+  "name": "fco-llanquipichun-website",
+  "description": "Personal website source code",
+  "homepage": "https://francisco.llanquipichun.cl",
   "version": "0.1.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/franciscollanquipichun/static-personal-website-src"
+  },
+  "author": {
+    "name": "Francisco Llanquipichun",
+    "url": "https://francisco.llanquipichun.cl"
+  },
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "deploy": "./deploy.sh"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.34",
+    "@fortawesome/free-solid-svg-icons": "^5.15.2",
+    "bulma": "^0.9.2",
     "core-js": "^3.6.5",
-    "vue": "^2.6.11"
+    "vue": "^2.6.11",
+    "vue-router": "^3.5.1"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.5.0",

@@ -1,4 +1,10 @@
-# fco-llanquipichun-site
+# fco.llanquipichun website SRC
+
+Access from: [francisco.llanquipichun.cl](https://francisco.llanquipichun.cl)
+
+This is my personal presentation website source code. 
+The static code is displayed on a [GitHub Pages](https://pages.github.com/) repository.
+Its main function is to show my project portfolio and contact information.
 
 ## Project setup
 ```
@@ -20,5 +26,10 @@ yarn build
 yarn lint
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### Deploy on production
+
+Deploy to public [github pages repository](https://github.com/franciscollanquipichun/franciscollanquipichun.github.io)
+
+```
+yarn deploy 
+```
