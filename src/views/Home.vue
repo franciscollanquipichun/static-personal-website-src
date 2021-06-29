@@ -33,6 +33,7 @@
                             </p>
                             <router-link :to='{name:"about"}' class="button is-warning">
                                 <span>View skills and knowledge</span>
+                                <span class="icon"><font-awesome-icon :icon="arrowRightIcon" /></span>
                             </router-link>
                           </div>
                         </div>
@@ -51,6 +52,7 @@
                             </p>
                             <router-link :to='{name:"projects"}' class="button is-warning">
                                 <span>View projects portfolio</span>
+                                <span class="icon"><font-awesome-icon :icon="arrowRightIcon" /></span>
                             </router-link>
                           </div>
                         </div>
@@ -72,7 +74,7 @@
                         <li>
                             <a href="https://github.com/franciscollanquipichun" target="_blank" rel=”noopener” title="github" class="is-4">
                                 <span class="icon">
-                                <i class="fab fa-github" aria-hidden="true"></i>
+                                <font-awesome-icon :icon="githubIcon" />
                                 </span>
                                 <span>GitHub</span>
                             </a>
@@ -80,7 +82,7 @@
                         <li>
                             <a href="https://stackoverflow.com/users/2736289/f-llanquipichun" target="_blank" rel=”noopener” class="social-icon-link" title="Slideshare">
                                 <span class="icon">
-                                    <i class="fab fa-stack-overflow"></i>
+                                    <font-awesome-icon :icon="stackoverflowIcon" />
                                 </span>
                                 <span>stack<strong>overflow</strong></span>
                             </a>
@@ -88,7 +90,7 @@
                         <li>
                             <a href="https://twitter.com/F_Llanquipichun" target="_blank" rel=”noopener” class="social-icon-link" title="Twitter">
                                 <span class="icon">
-                                    <i class="fab fa-twitter"></i>
+                                    <font-awesome-icon :icon="twitterIcon" />
                                 </span>
                                 <span>twitter</span>
                             </a>
@@ -96,7 +98,7 @@
                         <li>
                             <a href="https://www.linkedin.com/in/franciscollanquipichun" target="_blank" rel=”noopener” class="social-icon-link" title="LinkedIn">
                                 <span class="icon">
-                                    <i class="fab fa-linkedin"></i>
+                                    <font-awesome-icon :icon="linkedinIcon" />
                                 </span>
                                 <span>LinkedIn</span>
                             </a>
@@ -110,3 +112,25 @@
     </div>
 </div>
 </template>
+
+<script>
+import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
+import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
+import { faGithub, faStackOverflow, faTwitter, faLinkedin } from "@fortawesome/free-brands-svg-icons";
+
+export default {
+  name: "Home",
+  data() {
+    return {
+      arrowRightIcon: faArrowRight,  
+      githubIcon: faGithub,
+      stackoverflowIcon: faStackOverflow,
+      twitterIcon: faTwitter,
+      linkedinIcon: faLinkedin,
+    };
+  },
+  components: {
+    FontAwesomeIcon
+  }
+};
+</script>

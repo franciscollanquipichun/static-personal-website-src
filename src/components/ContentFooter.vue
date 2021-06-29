@@ -12,7 +12,7 @@
                     <p>
                         <small>
                             View on <a href="https://github.com/franciscollanquipichun/franciscollanquipichun.github.io" target="_blank" rel=”noopener” title="source code">
-                                GitHub <i class="fab fa-github" aria-hidden="true"></i></a><br>
+                                GitHub <font-awesome-icon :icon="githubIcon" /></a><br>
                             More about <a href="https://pages.github.com/" target="_blank" rel=”noopener” title="GitHub Pages">GitHub Pages</a>
                         </small>
                     </p>
@@ -26,10 +26,21 @@
 </template>
 
 <script>
+import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
+
 export default {
   name: 'ContentFooter',
   props: {
     msg: String
+  },
+  data() {
+    return {
+      githubIcon: faGithub,
+    };
+  },
+  components: {
+    FontAwesomeIcon
   }
 }
 </script>
