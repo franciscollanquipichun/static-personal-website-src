@@ -8,9 +8,10 @@
                     <div class="media-content">
                       <div class="content">
                         <p>
-                          <strong>Software engineer</strong> at <a href="http://www.tide.cl">TIDE S.A</a>
+                          <strong>Development engineer</strong> at <a href="http://www.tide.cl">TIDE S.A</a>
                           <br>
-                          Web system update, maintenance and new features development.
+                          Design, development and software maintenance. 
+                          Software technical documentation generation.
                           <br>
                           <small>Nov 2019 - Present</small>
                         </p>
