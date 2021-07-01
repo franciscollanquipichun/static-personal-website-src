@@ -3,8 +3,14 @@
     <header>
       <Navbar title="francisco.llanquipichun.cl"/>
     </header>
-    <router-view/>
-    <content-footer/>
+    <div class="container is-max-desktop">
+      <router-view/>
+    </div>
+    <footer class="footer">
+      <div class="container is-max-desktop">
+        <content-footer/>
+      </div>
+    </footer>
   </div>
 </template>
 
@@ -17,6 +23,11 @@ export default {
   components: {
     Navbar,
     ContentFooter
-  }
+  },
+  watch: {
+    '$route' (to) {
+      document.title = to.meta.title || 'Francisco Llanquipichun';
+    }
+  },
 }
 </script>

@@ -13,22 +13,38 @@ export default new Router({
         {
             path: '/',
             name: 'home',
-            component: Home
+            component: Home,
+            meta: {
+                auth: false,
+                title: 'Francisco Llanquipichun'
+            }
         },
         {
             path: '/about',
             name: 'about',
-            component: About
+            component: About,
+            meta: {
+                auth: false,
+                title: 'About | Francisco Llanquipichun'
+            }
         },
         {
             path: '/projects',
             name: 'projects',
-            component: Projects
+            component: Projects,
+            meta: {
+                auth: false,
+                title: 'Projects | Francisco Llanquipichun'
+            }
         },
         {
             path: '*',
             name: 'Error',
-            component: Error
+            component: Error,
+            meta: {
+                auth: false,
+                title: 'Not found'
+            }
         }
     ]
 })

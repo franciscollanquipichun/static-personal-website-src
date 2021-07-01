@@ -1,7 +1,7 @@
 <template>
 <div>
     <header>
-        <section class="hero is-black">
+        <section class="hero">
             <div class="hero-body">
                 <div class="container">
                 <h2 class="subtitle">Hello,</h2>
