@@ -21,7 +21,7 @@
             <div class="columns is-gapless is-desktop">
                 <!-- Main content -->
                 <div class="column is-half-desktop">
-                    <section class="hero is-white">
+                    <section class="hero">
                         <div class="hero-body">
                           <div class="container">
                             <h2 class="title">
@@ -40,7 +40,7 @@
                     </section>
                 </div>
                 <div class="column is-half-desktop">
-                    <section class="hero is-white">
+                    <section class="hero">
                         <div class="hero-body">
                           <div class="container">
                             <h2 class="title">

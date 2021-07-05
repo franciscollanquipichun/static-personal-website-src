@@ -15,6 +15,7 @@ cd dist
 echo 'francisco.llanquipichun.cl' > CNAME
 # add repository readme
 echo 'Deployed code for website [francisco.llanquipichun.cl](https://francisco.llanquipichun.cl)' > README.md
+echo '- Source code: [franciscollanquipichun/static-personal-website-src](https://github.com/franciscollanquipichun/static-personal-website-src)' >> README.md
 
 echo '🚀  Deploying in franciscollanquipichun/franciscollanquipichun.github.io.git'
 

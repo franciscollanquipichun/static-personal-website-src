@@ -32,6 +32,7 @@
                       <span class="tag">Codeigniter</span>
                       <span class="tag">Docker</span>
                       <span class="tag">AWS</span>
+                      <span class="tag">Express</span>
                   </div>
                 </div>
               </div>
@@ -77,6 +78,7 @@
                   <div class="tags">
                       <span class="tag">Php</span>
                       <span class="tag">Js</span>
+                      <span class="tag">JQuery</span>
                       <span class="tag">Typo3</span>
                       <span class="tag">ProcessMaker</span>
                       <span class="tag">MySQL</span>

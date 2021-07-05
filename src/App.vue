@@ -22,7 +22,7 @@ export default {
   name: 'App',
   components: {
     Navbar,
-    ContentFooter
+    ContentFooter,
   },
   watch: {
     '$route' (to) {
