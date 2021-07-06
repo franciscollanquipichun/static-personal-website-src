@@ -1,33 +1,33 @@
 <template>
   <div id="app">
     <header>
-      <Navbar title="francisco.llanquipichun.cl"/>
+      <Navbar title="francisco.llanquipichun.cl" />
     </header>
     <div class="container is-max-desktop">
-      <router-view/>
+      <router-view />
     </div>
     <footer class="footer">
       <div class="container is-max-desktop">
-        <content-footer/>
+        <content-footer />
       </div>
     </footer>
   </div>
 </template>
 
 <script>
-import Navbar from '@/components/Navbar.vue'
-import ContentFooter from '@/components/ContentFooter.vue'
+import Navbar from "@/components/Navbar.vue";
+import ContentFooter from "@/components/ContentFooter.vue";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
     Navbar,
     ContentFooter,
   },
   watch: {
-    '$route' (to) {
-      document.title = to.meta.title || 'Francisco Llanquipichun';
-    }
+    $route(to) {
+      document.title = to.meta.title || "Francisco Llanquipichun";
+    },
   },
-}
+};
 </script>
