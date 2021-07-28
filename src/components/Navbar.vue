@@ -17,6 +17,7 @@
           aria-label="menu"
           aria-expanded="false"
           data-target="navbarMainMenu"
+          v-on:click="toogleMenu"
         >
           <span aria-hidden="true"></span>
           <span aria-hidden="true"></span>
@@ -84,6 +85,12 @@ export default {
     FontAwesomeIcon,
     DarkMode,
   },
+  methods: {
+    toogleMenu: (event) => {
+      event.target.classList.toggle("is-active");
+      document.getElementById("navbarMainMenu").classList.toggle("is-active");
+    },
+  },
 };
 </script>
 
@@ -93,6 +100,7 @@ export default {
   --bg: #fff;
   --color: #363636;
   --color-secondary: #4a4a4a;
+  --color-menu: whitesmoke;
   --color-link: #3273dc;
   --box-shadow: 0 0.5em 1em -0.125em rgba(10, 10, 10, 0.1),
     0 0px 0 1px rgba(10, 10, 10, 0.02);
@@ -102,6 +110,7 @@ html.dark-mode {
   --bg-secondary: #223140;
   --color: #ddd8ca;
   --color-secondary: whitesmoke;
+  --color-menu: #ddd8ca;
   --color-link: #ffdd57;
   --box-shadow: 0 0.5em 1em -0.125em rgba(240, 240, 240, 0.1),
     0 0px 0 1px rgba(240, 240, 240, 0.02);
@@ -122,6 +131,19 @@ html,
   background-color: var(--bg-secondary) !important;
   color: var(--color-secondary) !important;
 }
+.navbar-menu {
+  background-color: transparent !important;
+}
+a.navbar-item:focus,
+a.navbar-item:focus-within,
+a.navbar-item:hover,
+a.navbar-item.is-active,
+.navbar-link:focus,
+.navbar-link:focus-within,
+.navbar-link:hover,
+.navbar-link.is-active {
+  background-color: black !important;
+}
 .subtitle,
 .title,
 strong,
@@ -130,6 +152,10 @@ p,
 .menu-list a,
 .breadcrumb .is-active a {
   color: var(--color) !important;
+}
+.navbar-item,
+.navbar-link {
+  color: var(--color-menu) !important;
 }
 .footer a,
 .breadcrumb a,
