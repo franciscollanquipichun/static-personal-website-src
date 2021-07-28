@@ -43,4 +43,5 @@ export default new VueRouter({
       },
     },
   ],
+  linkActiveClass: "is-active",
 });

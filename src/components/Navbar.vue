@@ -27,7 +27,7 @@
 
       <div id="navbarMainMenu" class="navbar-menu">
         <div class="navbar-start">
-          <router-link :to="{ name: 'home' }" class="navbar-item is-active">
+          <router-link :to="{ name: 'home' }" class="navbar-item" exact>
             Home
           </router-link>
           <router-link :to="{ name: 'about' }" class="navbar-item">
