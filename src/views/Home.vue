@@ -1,5 +1,19 @@
 <template>
   <div>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Hello",
+            "item": "https://francisco.llanquipichun.cl/"
+          }
+        ]
+      }
+    </script>
     <header>
       <section class="hero">
         <div class="hero-body">

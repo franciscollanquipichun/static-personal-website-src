@@ -1,5 +1,41 @@
 <template>
   <div>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Hello",
+            "item": "https://francisco.llanquipichun.cl/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "About",
+            "item": "https://francisco.llanquipichun.cl/#/about"
+          }
+        ]
+      }
+    </script>
+    <script type="application/ld+json">
+      {
+        "@context": "http://schema.org",
+        "@type": "Person",
+        "name": "Francisco Llanquipichun",
+        "url": "https://francisco.llanquipichun.cl",
+        "jobTitle": "Software Engineer",
+        "gender": "male",
+        "sameAs": [
+          "https://github.com/franciscollanquipichun",
+          "https://stackoverflow.com/users/2736289/f-llanquipichun",
+          "https://twitter.com/F_Llanquipichun",
+          "https://www.linkedin.com/in/franciscollanquipichun"
+        ]
+      }
+    </script>
     <section class="section">
       <nav class="breadcrumb has-dot-separator" aria-label="breadcrumbs">
         <ul>

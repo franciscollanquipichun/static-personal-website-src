@@ -1,6 +1,26 @@
 <template>
   <!-- Main content -->
   <div>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Hello",
+            "item": "https://francisco.llanquipichun.cl"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Projects",
+            "item": "https://francisco.llanquipichun.cl/#/projects"
+          }
+        ]
+      }
+    </script>
     <section class="section">
       <nav class="breadcrumb has-dot-separator" aria-label="breadcrumbs">
         <ul>
