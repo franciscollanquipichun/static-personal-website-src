@@ -24,6 +24,9 @@ export default {
     Navbar,
     ContentFooter,
   },
+  created: function () {
+    document.title = "Francisco Llanquipichun";
+  },
   watch: {
     $route(to) {
       document.title = to.meta.title || "Francisco Llanquipichun";
