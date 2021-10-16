@@ -178,7 +178,30 @@
         <div class="tile is-ancestor">
           <div class="tile is-parent is-vertical">
             <div class="tile is-child notification">
-              <p class="title is-4">Dev tools</p>
+              <p class="title is-4">Databases and data science</p>
+              <div class="font-code">
+                <p>
+                  <span class="icon"
+                    ><font-awesome-icon :icon="databaseIcon"
+                  /></span>
+                  PostgreSQL
+                </p>
+                <p>
+                  <span class="icon"
+                    ><font-awesome-icon :icon="postgisIcon"
+                  /></span>
+                  PostGIS
+                </p>
+                <p>
+                  <span class="icon"
+                    ><font-awesome-icon :icon="databaseIcon"
+                  /></span>
+                  MySQL
+                </p>
+              </div>
+            </div>
+            <div class="tile is-child notification">
+              <p class="title is-4">Development tools</p>
               <div class="font-code">
                 <p>
                   <span class="icon"
@@ -206,8 +229,10 @@
                 </p>
               </div>
             </div>
+          </div>
+          <div class="tile is-parent is-vertical">
             <div class="tile is-child notification">
-              <p class="title is-4">Management tools</p>
+              <p class="title is-4">Management and productivity tools</p>
               <div class="font-code">
                 <p>
                   <span class="icon"
@@ -223,6 +248,12 @@
                 </p>
                 <p>
                   <span class="icon"
+                    ><font-awesome-icon :icon="notionIcon"
+                  /></span>
+                  Notion
+                </p>
+                <p>
+                  <span class="icon"
                     ><font-awesome-icon :icon="slackIcon"
                   /></span>
                   Slack
@@ -235,8 +266,6 @@
                 </p>
               </div>
             </div>
-          </div>
-          <div class="tile is-parent">
             <div class="tile is-child notification">
               <p class="title is-4">Others</p>
               <div class="font-code">
@@ -245,24 +274,6 @@
                     ><font-awesome-icon :icon="linuxIcon"
                   /></span>
                   Linux OS
-                </p>
-                <p>
-                  <span class="icon"
-                    ><font-awesome-icon :icon="databaseIcon"
-                  /></span>
-                  PostgreSQL
-                </p>
-                <p>
-                  <span class="icon"
-                    ><font-awesome-icon :icon="postgisIcon"
-                  /></span>
-                  PostGIS
-                </p>
-                <p>
-                  <span class="icon"
-                    ><font-awesome-icon :icon="databaseIcon"
-                  /></span>
-                  MySQL
                 </p>
                 <p>
                   <span class="icon"
@@ -293,8 +304,9 @@ import {
   faTerminal,
   faUserAstronaut,
   faUsers,
-  faExclamationTriangle,
+  faCircleNotch,
   faGlobe,
+  faCube,
 } from "@fortawesome/free-solid-svg-icons";
 import {
   faAngular,
@@ -334,13 +346,14 @@ export default {
       scrumIcon: faUsers,
       gitIcon: faGitAlt,
       dockerIcon: faDocker,
-      sonarqubeIcon: faExclamationTriangle,
+      sonarqubeIcon: faCircleNotch,
       postmanIcon: faUserAstronaut,
       postgisIcon: faGlobe,
       unityIcon: faUnity,
       linuxIcon: faLinux,
       jiraIcon: faJira,
       trelloIcon: faTrello,
+      notionIcon: faCube,
       slackIcon: faSlack,
       googleIcon: faGoogle,
       awsIcon: faAws,
