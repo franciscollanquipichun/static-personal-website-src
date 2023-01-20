@@ -60,8 +60,8 @@
                 <div class="container">
                   <h2 class="title">Projects</h2>
                   <p class="subtitle">
-                    Desde el año 2013 me desempeño profesionalmente como
-                    desarrollador de software.
+                    I have worked on projects of different scope and complexities, 
+                    acquiring a wide knowledge of web technologies.
                   </p>
                   <router-link
                     :to="{ name: 'projects' }"

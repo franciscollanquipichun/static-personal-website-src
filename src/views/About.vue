@@ -48,15 +48,10 @@
       <div class="content is-medium">
         <h1 class="title">About</h1>
         <p>
-          I am <strong>software engineer</strong> specialized in developing
-          <strong>web solutions</strong> and sometimes also
-          <strong>mobile</strong>.
-        </p>
-        <p>
-          Desde el año 2013 me desempeño profesionalmente como desarrollador de
-          software aunque desde siempre me han apasionado las temáticas de:
-          ciencia, tecnología y videojuegos 🤖.<br />
-          Me encanta escribir código y resolver problemas.
+          Since 2013, I have been professionally working as a <strong>software developer</strong>, 
+          specialized in creating web solutions and sometimes also mobile.<br /> 
+          I have always been passionate about science, technology, and video games 🤖
+          And enjoy greatly writing code and solving complex problems.
         </p>
       </div>
     </section>

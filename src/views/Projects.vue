@@ -32,6 +32,13 @@
           </li>
         </ul>
       </nav>
+      <div class="content is-medium">
+        <h1 class="title">Projects</h1>
+        <p>
+          In this section you will be able to learn about my experience and skills, 
+          and how I have applied them in specific projects.
+        </p>
+      </div>
 
       <h3 class="title is-3">My work experience</h3>
       <article class="media">
