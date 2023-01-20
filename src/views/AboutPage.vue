@@ -48,9 +48,11 @@
       <div class="content is-medium">
         <h1 class="title">About</h1>
         <p>
-          Since 2013, I have been professionally working as a <strong>software developer</strong>, 
-          specialized in creating web solutions and sometimes also mobile.<br /> 
-          I have always been passionate about science, technology, and video games 🤖
+          Since 2013, I have been professionally working as a
+          <strong>software developer</strong>, specialized in creating web
+          solutions and sometimes also mobile.<br />
+          I have always been passionate about science, technology, and video
+          games 🤖<br />
           And enjoy greatly writing code and solving complex problems.
         </p>
       </div>
@@ -324,7 +326,7 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 
 export default {
-  name: "About",
+  name: "AboutPage",
   data() {
     return {
       fileCodeIcon: faFileCode,

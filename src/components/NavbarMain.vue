@@ -70,7 +70,7 @@ import { faSun, faMoon, faAdjust } from "@fortawesome/free-solid-svg-icons";
 import { DarkMode } from "@vue-a11y/dark-mode";
 
 export default {
-  name: "Navbar",
+  name: "NavbarMain",
   props: {
     title: String,
   },

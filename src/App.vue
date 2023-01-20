@@ -15,7 +15,7 @@
 </template>
 
 <script>
-import Navbar from "@/components/Navbar.vue";
+import Navbar from "@/components/NavbarMain.vue";
 import ContentFooter from "@/components/ContentFooter.vue";
 
 export default {

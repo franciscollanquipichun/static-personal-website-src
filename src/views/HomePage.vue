@@ -60,8 +60,9 @@
                 <div class="container">
                   <h2 class="title">Projects</h2>
                   <p class="subtitle">
-                    I have worked on projects of different scope and complexities, 
-                    acquiring a wide knowledge of web technologies.
+                    I have worked on projects of different scope and
+                    complexities, acquiring a wide knowledge of web
+                    technologies.
                   </p>
                   <router-link
                     :to="{ name: 'projects' }"
@@ -162,7 +163,7 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 
 export default {
-  name: "Home",
+  name: "HomePage",
   data() {
     return {
       arrowRightIcon: faArrowRight,

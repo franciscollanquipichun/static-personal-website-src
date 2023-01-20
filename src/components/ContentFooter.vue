@@ -3,7 +3,7 @@
     <!-- Main content -->
     <div class="column is-two-thirds-desktop">
       <div class="content">
-        <p>© <span id="current-year">2021</span> Francisco Llanquipichun</p>
+        <p>© <span id="current-year">2023</span> Francisco Llanquipichun</p>
       </div>
     </div>
     <div class="column is-one-third-desktop">

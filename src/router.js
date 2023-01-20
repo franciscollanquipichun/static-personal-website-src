@@ -1,6 +1,6 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
-import Home from "@/views/Home";
+import Home from "@/views/HomePage";
 
 Vue.use(VueRouter);
 
@@ -18,7 +18,7 @@ export default new VueRouter({
     {
       path: "/about",
       name: "about",
-      component: () => import("@/views/About"),
+      component: () => import("@/views/AboutPage"),
       meta: {
         auth: false,
         title: "About | Francisco Llanquipichun",
@@ -27,7 +27,7 @@ export default new VueRouter({
     {
       path: "/projects",
       name: "projects",
-      component: () => import("@/views/Projects"),
+      component: () => import("@/views/ProjectsPage"),
       meta: {
         auth: false,
         title: "Projects | Francisco Llanquipichun",
@@ -36,7 +36,7 @@ export default new VueRouter({
     {
       path: "*",
       name: "Error",
-      component: () => import("@/views/Error"),
+      component: () => import("@/views/ErrorPage"),
       meta: {
         auth: false,
         title: "Not found",

@@ -35,8 +35,8 @@
       <div class="content is-medium">
         <h1 class="title">Projects</h1>
         <p>
-          In this section you will be able to learn about my experience and skills, 
-          and how I have applied them in specific projects.
+          In this section you will be able to learn about my experience and
+          skills, and how I have applied them in specific projects.
         </p>
       </div>
 
