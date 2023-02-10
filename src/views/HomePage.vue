@@ -107,7 +107,7 @@
                     target="_blank"
                     rel="”noopener”"
                     class="social-icon-link"
-                    title="Slideshare"
+                    title="stackoverflow"
                   >
                     <span class="icon">
                       <font-awesome-icon :icon="stackoverflowIcon" />
@@ -143,6 +143,20 @@
                     <span>LinkedIn</span>
                   </a>
                 </li>
+                <li>
+                  <a
+                    href="https://fllanquipichun.itch.io/"
+                    target="_blank"
+                    rel="”noopener”"
+                    class="social-icon-link"
+                    title="itch.io"
+                  >
+                    <span class="icon">
+                      <font-awesome-icon :icon="itchioIcon" />
+                    </span>
+                    <span>itch.io</span>
+                  </a>
+                </li>
               </ul>
             </aside>
           </div>
@@ -160,6 +174,7 @@ import {
   faStackOverflow,
   faTwitter,
   faLinkedin,
+  faItchIo,
 } from "@fortawesome/free-brands-svg-icons";
 
 export default {
@@ -171,6 +186,7 @@ export default {
       stackoverflowIcon: faStackOverflow,
       twitterIcon: faTwitter,
       linkedinIcon: faLinkedin,
+      itchioIcon: faItchIo,
     };
   },
   components: {
